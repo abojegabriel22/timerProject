@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #22648f, #0033cc, rgba(255, 122, 89));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(151, 120, 19);
+    
+}
+h1{
+    font-size: 30px;
+}
+
+.container{
+    height: 70vh;
+    width: 70vh;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px 11px rgba(151, 120, 19, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container .timerContainer{
+    display: flex;
+    margin: 20px;
+}
+.time{
+    margin: 0 20px;
+    text-align: center;
+}
+.time h3{
+    font-size: 30px;
+}
